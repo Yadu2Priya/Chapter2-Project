@@ -1,0 +1,66 @@
+ /* body {
+     padding: 0px; 
+     margin: 0px;
+     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg);
+     background-size: cover;
+}  
+ */ 
+ .container {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+ }
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #088db5 ;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+nav ul a:hover {
+    color: #a0c0c9;
+    transition: 0.3s;
+}
+form {
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+form input, form textarea {
+ width: 100%;
+ margin-bottom: 10px;
+ box-sizing: border-box;
+}
+form button {
+    width: 30%;
+    padding: 5px;
+    background-color: #088db5;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    transition: 0.2s;
+}
+form button:hover {
+    background: #08b8ee;
+
+}
+form button :active {
+    box-shadow: inset 3px 2px 15px -5px #252525;
+}
+h2 {
+    color: blueviolet;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  }
+  
